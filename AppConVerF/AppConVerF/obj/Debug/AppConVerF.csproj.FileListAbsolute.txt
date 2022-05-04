@@ -1,0 +1,12 @@
+C:\Users\OrianaContreras\source\repos\AppConVerF\AppConVerF\bin\Debug\AppConVerF.exe.config
+C:\Users\OrianaContreras\source\repos\AppConVerF\AppConVerF\bin\Debug\AppConVerF.exe
+C:\Users\OrianaContreras\source\repos\AppConVerF\AppConVerF\bin\Debug\AppConVerF.pdb
+C:\Users\OrianaContreras\source\repos\AppConVerF\AppConVerF\bin\Debug\LibNegVerF.dll
+C:\Users\OrianaContreras\source\repos\AppConVerF\AppConVerF\bin\Debug\LibNegVerF.pdb
+C:\Users\OrianaContreras\source\repos\AppConVerF\AppConVerF\obj\Debug\AppConVerF.csproj.CoreCompileInputs.cache
+C:\Users\OrianaContreras\source\repos\AppConVerF\AppConVerF\obj\Debug\AppConVerF.csproj.CopyComplete
+C:\Users\OrianaContreras\source\repos\AppConVerF\AppConVerF\obj\Debug\AppConVerF.exe
+C:\Users\OrianaContreras\source\repos\AppConVerF\AppConVerF\obj\Debug\AppConVerF.pdb
+C:\Users\OrianaContreras\source\repos\AppConVerF\AppConVerF\bin\Debug\LibDataVerF.dll
+C:\Users\OrianaContreras\source\repos\AppConVerF\AppConVerF\bin\Debug\LibDataVerF.pdb
+C:\Users\OrianaContreras\source\repos\AppConVerF\AppConVerF\obj\Debug\AppConVerF.csproj.AssemblyReference.cache
