@@ -58,7 +58,65 @@ namespace AppConVerF
             }
             else
             {
-                Console.WriteLine("Reingreso de Datos en la Base de Datos");
+                Console.WriteLine("Reingreso Datos Contacto");
+                Console.WriteLine("=======================");
+                Console.WriteLine("Por favor indique cuales desea modificar:");
+                if (true)
+                {
+                    Console.Write("Ingrese Rut      : ");
+                    objAmigo.Rut = Console.ReadLine();
+
+                }
+                else if (true)
+                    {
+                            Console.Write("Ingrese Nombre   : ");
+                            objAmigo.Nombre = Console.ReadLine();
+                }else if (true)
+                {
+                    Console.Write("Ingrese apPaterno: ");
+                    objAmigo.ApPaterno = Console.ReadLine();
+                }
+                else if (true)
+                {
+                    Console.Write("Ingrese apMaterno: ");
+                    objAmigo.ApMaterno = Console.ReadLine();
+                }
+                else if (true)
+                {
+                    Console.Write("Ingrese direccion: ");
+                    objAmigo.Direccion = Console.ReadLine();
+                }
+                else if (true)
+                {
+                    Console.Write("Ingrese edad     : ");
+                    objAmigo.Edad = int.Parse(Console.ReadLine());
+                }
+                else if (true)
+                {
+                    Console.Write("Ingrese fono     : ");
+                    objAmigo.Fono = Console.ReadLine();
+                }
+                else
+                {
+                    Console.Write("Ingrese correo   : ");
+                    objAmigo.Email = Console.ReadLine();
+                }
+
+                Console.Clear();
+                Console.WriteLine("Mostrando Datos Contacto");
+                Console.WriteLine("========================");
+                Console.WriteLine("Rut        : {0}", objAmigo.Rut);
+                Console.WriteLine("Nombre     : {0}", objAmigo.Nombre);
+                Console.WriteLine("Ap. Paterno: {0}", objAmigo.ApPaterno);
+                Console.WriteLine("Ap. Materno: {0}", objAmigo.ApMaterno);
+                Console.WriteLine("Direccion  : {0}", objAmigo.Direccion);
+                Console.WriteLine("Edad       : {0}", objAmigo.Edad);
+                Console.WriteLine("Fono       : {0}", objAmigo.Fono);
+                Console.WriteLine("Correo     : {0}", objAmigo.Email);
+
+                Console.Write("\nLos datos mostrados son correctos? [S/N]: ");
+               // string resp = Console.ReadLine();
+
             }
             pausa();
 
@@ -66,7 +124,7 @@ namespace AppConVerF
 
             if (objAmigo.EsExito)
             {
-                Console.WriteLine("Los Datos fueron ingresados correessstamente........");
+                Console.WriteLine("Los Datos fueron ingresados correctamente........");
             }
             else
             {

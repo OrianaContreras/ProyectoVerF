@@ -50,6 +50,20 @@ namespace LibNegVerF
             return objAmigo;
         }// fin mostrar
 
+        public Amigo eliminar(Amigo objAmigo)
+        {
+            BaseDato objDB = new BaseDato();
+            //objAmigo = objDB.eliminar(objAmigo);
+            return objAmigo;
+        }// fin eliminar
+
+        public Amigo modificar(Amigo objAmigo)
+        {
+            BaseDato objDB = new BaseDato();
+           // objAmigo = objDB.modificar(objAmigo);
+            return objAmigo;
+        }// fin modificar
+
         #endregion
 
 

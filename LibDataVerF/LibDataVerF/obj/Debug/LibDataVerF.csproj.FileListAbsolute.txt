@@ -7,3 +7,12 @@ C:\Users\OrianaContreras\source\repos\LibDataVerF\LibDataVerF\bin\Debug\LibNegVe
 C:\Users\OrianaContreras\source\repos\LibDataVerF\LibDataVerF\bin\Debug\LibNegVerF.pdb
 C:\Users\OrianaContreras\source\repos\LibDataVerF\LibDataVerF\obj\Debug\LibDataVerF.csproj.AssemblyReference.cache
 C:\Users\OrianaContreras\source\repos\LibDataVerF\LibDataVerF\obj\Debug\LibDataVerF.csproj.CopyComplete
+C:\ProyectoVerF\LibDataVerF\LibDataVerF\bin\Debug\LibDataVerF.dll
+C:\ProyectoVerF\LibDataVerF\LibDataVerF\bin\Debug\LibDataVerF.pdb
+C:\ProyectoVerF\LibDataVerF\LibDataVerF\bin\Debug\LibNegVerF.dll
+C:\ProyectoVerF\LibDataVerF\LibDataVerF\bin\Debug\LibNegVerF.pdb
+C:\ProyectoVerF\LibDataVerF\LibDataVerF\obj\Debug\LibDataVerF.csproj.AssemblyReference.cache
+C:\ProyectoVerF\LibDataVerF\LibDataVerF\obj\Debug\LibDataVerF.csproj.CoreCompileInputs.cache
+C:\ProyectoVerF\LibDataVerF\LibDataVerF\obj\Debug\LibDataVerF.csproj.CopyComplete
+C:\ProyectoVerF\LibDataVerF\LibDataVerF\obj\Debug\LibDataVerF.dll
+C:\ProyectoVerF\LibDataVerF\LibDataVerF\obj\Debug\LibDataVerF.pdb
