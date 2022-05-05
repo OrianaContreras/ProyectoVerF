@@ -78,6 +78,21 @@ namespace LibDataVerF
             return objAmigo;
         }// fin mostrar
 
+        public Amigo eliminar(Amigo objAmigo)
+        {
+            Console.WriteLine("soy eliminar");
+  
+            return objAmigo;
+        }// fin eliminar
+
+        public Amigo modificar(Amigo objAmigo)
+        {
+            Console.WriteLine("soy modificar");
+
+            return objAmigo;
+        }// fin modificar
+
+
         #endregion
 
 
