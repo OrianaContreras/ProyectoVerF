@@ -17,7 +17,8 @@ namespace AppConVerF
 
             Amigo objAmigo = new Amigo();
 
-
+            objAmigo.eliminar(objAmigo);
+            objAmigo.modificar(objAmigo);
             Console.WriteLine("Ingreso Datos Contacto");
             Console.WriteLine("=======================");
             Console.Write("Ingrese Rut      : ");
