@@ -14,6 +14,7 @@ namespace LibDataVerF
     {
         private string strConn = ConfigurationManager.AppSettings["strConexion"];
         //private string strConn = "Data Source=UPR_404LAB_DCTE\\SQLSERVER2017DEV;Initial Catalog=DB_Amistades;User Id=sa;Password=Passw0rd";
+        //private string strConn = "Data Source=TI-OCONTRERAS;Initial Catalog=DB_Amistades;User ID=sa;Password=Passw0rd";
         #region operaciones
         public Amigo ingresar(Amigo objAmigo)
         {

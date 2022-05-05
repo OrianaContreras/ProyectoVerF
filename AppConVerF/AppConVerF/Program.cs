@@ -41,10 +41,10 @@ namespace AppConVerF
                         eliminar();
                         break;
                     case 5:
-                        Console.WriteLine("Muchas gracias por usar nuestra \"Calculadora PAA\"");
+                        Console.WriteLine("Muchas gracias por utilizar \"Nuestros Servicios de Inventario\"");
                         break;
                     default:
-                        Console.WriteLine("No es una opcion valida");
+                        Console.WriteLine("No es una opción válida");
                         break;
                 }// fin switch
 
