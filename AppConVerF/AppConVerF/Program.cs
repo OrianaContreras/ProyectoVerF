@@ -12,13 +12,69 @@ namespace AppConVerF
     {
         static void Main(string[] args)
         {
-            DataSet ds = new DataSet();
-            bool esExito = false;
+            do
+            {
+                int op = 0;
+                do
+                {
+                    menu();
+                    op = int.Parse(Console.ReadLine());
+                    if (!(op > 0 && op < 6))
+                    {
+                        Console.WriteLine("\nDebe ingresar una opción válida ");
+                        pausa();
+                    }
+                } while (!(op > 0 && op < 6));
 
+                switch (op)
+                {
+                    case 1:
+                        ingresar();
+                        break;
+                    case 2:
+                        mostrar();
+                        break;
+                    case 3:
+                        modificar();
+                        break;
+                    case 4:
+                        eliminar();
+                        break;
+                    case 5:
+                        Console.WriteLine("Muchas gracias por usar nuestra \"Calculadora PAA\"");
+                        break;
+                    default:
+                        Console.WriteLine("No es una opcion valida");
+                        break;
+                }// fin switch
+
+            } while (true);
+        }// fin main
+
+        public static void menu()
+        {
+            Console.WriteLine("Menú CRUD");
+            Console.WriteLine("===============");
+            Console.WriteLine("1.- Ingresar");
+            Console.WriteLine("2.- Mostrar");
+            Console.WriteLine("3.- Modificar");
+            Console.WriteLine("4.- Eliminar");
+            Console.WriteLine("5.- Salir");
+            Console.Write("\nIngrese opcion [1-5]: ");
+        }// fin menu
+
+        public static void pausa()
+        {
+            Console.WriteLine("\n\n\nPresione una tecla para continuar....");
+            Console.ReadKey();
+            Console.Clear();
+        }// fin pausa
+
+        public static void ingresar()
+        {
+            bool esExito = false;
             Amigo objAmigo = new Amigo();
 
-            objAmigo.eliminar(objAmigo);
-            objAmigo.modificar(objAmigo);
             Console.WriteLine("Ingreso Datos Contacto");
             Console.WriteLine("=======================");
             Console.Write("Ingrese Rut      : ");
@@ -69,10 +125,11 @@ namespace AppConVerF
 
                 }
                 else if (true)
-                    {
-                            Console.Write("Ingrese Nombre   : ");
-                            objAmigo.Nombre = Console.ReadLine();
-                }else if (true)
+                {
+                    Console.Write("Ingrese Nombre   : ");
+                    objAmigo.Nombre = Console.ReadLine();
+                }
+                else if (true)
                 {
                     Console.Write("Ingrese apPaterno: ");
                     objAmigo.ApPaterno = Console.ReadLine();
@@ -116,7 +173,7 @@ namespace AppConVerF
                 Console.WriteLine("Correo     : {0}", objAmigo.Email);
 
                 Console.Write("\nLos datos mostrados son correctos? [S/N]: ");
-               // string resp = Console.ReadLine();
+                // string resp = Console.ReadLine();
 
             }
             pausa();
@@ -131,8 +188,12 @@ namespace AppConVerF
             {
                 Console.WriteLine("E R R O R Datos no ingresados. !!!!!!!!!");
             }
+        }
 
-            pausa();
+        public static void mostrar()
+        {
+            DataSet ds = new DataSet();
+            Amigo objAmigo = new Amigo();
 
             Console.WriteLine("Ingrese rut o * para buscar todos....");
             objAmigo.Rut = Console.ReadLine();
@@ -154,15 +215,19 @@ namespace AppConVerF
                 Console.WriteLine("Fono \t\t: {0}", fila["fono"].ToString());
                 Console.WriteLine("Correo \t\t: {0}\n", fila["Email"].ToString());
             }
-            pausa();
-        }// fin main
+        }
 
-        public static void pausa()
+        public static void modificar()
         {
-            Console.WriteLine("\n\n\nPresione una tecla para continuar....");
-            Console.ReadKey();
-            Console.Clear();
-        }// fin pausa
+            Amigo objAmigo = new Amigo();
+            objAmigo.modificar(objAmigo);
+        }
+
+        public static void eliminar()
+        {
+            Amigo objAmigo = new Amigo();
+            objAmigo.eliminar(objAmigo);
+        }
 
 
     }// fin class
